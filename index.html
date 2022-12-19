@@ -6,6 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hitozuma</title>
     <style>
+	* {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
         body{
             float: top;
             margin: 0 ;
@@ -19,6 +32,8 @@
     </style>
 </head>
 <body>
+    <div class="imgbox">
+    	<img class="center-fit" src='pic.png'>
     <img src="img/1.jpg" alt="">
     <img src="img/2.jpg" alt="">
     <img src="img/3.jpg" alt="">
